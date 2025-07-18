@@ -1,0 +1,20 @@
+# Core LangChain ecosystem
+langchain>=0.2.0
+langchain-community>=0.2.0
+langchain-huggingface>=0.2.0
+langchain-groq>=0.1.0
+
+# Vector Store
+faiss-cpu>=1.7.4  # CPU-only version (avoid AVX512 issues)
+
+# Transformers and Embeddings
+sentence-transformers>=2.2.2
+huggingface-hub>=0.20.0
+
+# PDF Support
+pypdf>=3.16.4
+
+# Web App + Env Support
+flask>=2.2.5
+python-dotenv>=1.0.1
+

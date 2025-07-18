@@ -1,0 +1,109 @@
+# --------------------------
+# Python
+# --------------------------
+__pycache__/
+*.py[cod]
+*.so
+*.pyd
+*.pyo
+*.pkl
+*.log
+
+# --------------------------
+# Virtual Environments
+# --------------------------
+venv/
+.venv/
+env/
+ENV/
+env.bak/
+
+# --------------------------
+# Egg Info
+# --------------------------
+*.egg-info/
+RAG_Medcal_Chatbot.egg-info/
+
+# --------------------------
+# Flask
+# --------------------------
+instance/
+*.pid
+
+# --------------------------
+# Dotenv and Secrets
+# --------------------------
+.env
+*.env
+
+# --------------------------
+# LangChain
+# --------------------------
+.cache/
+langchain.db
+lc_logs/
+
+# --------------------------
+# Hugging Face
+# --------------------------
+huggingface/
+~/.cache/huggingface/
+~/.huggingface/
+*.hf.co
+
+# --------------------------
+# Sentence Transformers / Model Files
+# --------------------------
+*.bin
+*.pt
+*.ckpt
+models/
+tokenizer_config.json
+special_tokens_map.json
+*.onnx
+
+# --------------------------
+# FAISS
+# --------------------------
+*.index
+*.faiss
+
+# --------------------------
+# Data Files
+# --------------------------
+*.csv
+*.tsv
+*.json
+*.jsonl
+*.xlsx
+
+# --------------------------
+# Logs and Outputs
+# --------------------------
+logs/
+output/
+outputs/
+checkpoints/
+reports/
+test_outputs/
+
+# --------------------------
+# Jupyter Notebooks
+# --------------------------
+*.ipynb
+.ipynb_checkpoints/
+
+# --------------------------
+# IDEs and Editors
+# --------------------------
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# --------------------------
+# OS and Miscellaneous
+# --------------------------
+.DS_Store
+Thumbs.db
+desktop.ini
